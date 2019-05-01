@@ -13,6 +13,17 @@
 		6D1474F32278B2EF005C8173 /* MovieListWithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D1474F12278B2EF005C8173 /* MovieListWithCoreData.xcdatamodeld */; };
 		6D1474F52278B2F7005C8173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D1474F42278B2F7005C8173 /* Assets.xcassets */; };
 		6D1474F82278B2F7005C8173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1474F62278B2F7005C8173 /* LaunchScreen.storyboard */; };
+		6D1475032278B4E7005C8173 /* MovieDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1475022278B4E7005C8173 /* MovieDetailsTableViewCell.swift */; };
+		6D1475052278B747005C8173 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1475042278B746005C8173 /* PersistentService.swift */; };
+		6D1475082278BA08005C8173 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1475062278BA08005C8173 /* Movie+CoreDataClass.swift */; };
+		6D1475092278BA08005C8173 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1475072278BA08005C8173 /* Movie+CoreDataProperties.swift */; };
+		6D14750C2278BA89005C8173 /* APILogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14750B2278BA89005C8173 /* APILogic.swift */; };
+		6D14750E2278BE6F005C8173 /* MovieCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14750D2278BE6F005C8173 /* MovieCodeable.swift */; };
+		6D1475102278FE09005C8173 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14750F2278FE09005C8173 /* SplashScreenViewController.swift */; };
+		6D147512227909EC005C8173 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D147511227909EC005C8173 /* DetailsViewController.swift */; };
+		6D1475142279943D005C8173 /* QReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1475132279943D005C8173 /* QReaderViewController.swift */; };
+		6D14751722799FE6005C8173 /* QR+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14751522799FE6005C8173 /* QR+CoreDataClass.swift */; };
+		6D14751822799FE6005C8173 /* QR+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14751622799FE6005C8173 /* QR+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		6D1474F42278B2F7005C8173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D1474F72278B2F7005C8173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D1474F92278B2F7005C8173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1475022278B4E7005C8173 /* MovieDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		6D1475042278B746005C8173 /* PersistentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentService.swift; sourceTree = "<group>"; };
+		6D1475062278BA08005C8173 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6D1475072278BA08005C8173 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6D14750B2278BA89005C8173 /* APILogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogic.swift; sourceTree = "<group>"; };
+		6D14750D2278BE6F005C8173 /* MovieCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCodeable.swift; sourceTree = "<group>"; };
+		6D14750F2278FE09005C8173 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		6D147511227909EC005C8173 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6D1475132279943D005C8173 /* QReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QReaderViewController.swift; sourceTree = "<group>"; };
+		6D14751522799FE6005C8173 /* QR+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6D14751622799FE6005C8173 /* QR+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QR+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,10 @@
 		6D1474DE2278B2EE005C8173 = {
 			isa = PBXGroup;
 			children = (
+				6D14751522799FE6005C8173 /* QR+CoreDataClass.swift */,
+				6D14751622799FE6005C8173 /* QR+CoreDataProperties.swift */,
+				6D1475062278BA08005C8173 /* Movie+CoreDataClass.swift */,
+				6D1475072278BA08005C8173 /* Movie+CoreDataProperties.swift */,
 				6D1474E92278B2EF005C8173 /* MovieListWithCoreData */,
 				6D1474E82278B2EF005C8173 /* Products */,
 			);
@@ -56,15 +82,54 @@
 		6D1474E92278B2EF005C8173 /* MovieListWithCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				6D14750A2278BA6E005C8173 /* ApiLogic */,
+				6D1475012278B4B2005C8173 /* Modle */,
+				6D1475002278B4A7005C8173 /* Controller */,
+				6D1474FF2278B491005C8173 /* View */,
 				6D1474EA2278B2EF005C8173 /* AppDelegate.swift */,
-				6D1474EC2278B2EF005C8173 /* ViewController.swift */,
-				6D1474EE2278B2EF005C8173 /* Main.storyboard */,
 				6D1474F42278B2F7005C8173 /* Assets.xcassets */,
-				6D1474F62278B2F7005C8173 /* LaunchScreen.storyboard */,
 				6D1474F92278B2F7005C8173 /* Info.plist */,
 				6D1474F12278B2EF005C8173 /* MovieListWithCoreData.xcdatamodeld */,
 			);
 			path = MovieListWithCoreData;
+			sourceTree = "<group>";
+		};
+		6D1474FF2278B491005C8173 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D1474EE2278B2EF005C8173 /* Main.storyboard */,
+				6D1474F62278B2F7005C8173 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D1475002278B4A7005C8173 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D1474EC2278B2EF005C8173 /* ViewController.swift */,
+				6D14750F2278FE09005C8173 /* SplashScreenViewController.swift */,
+				6D147511227909EC005C8173 /* DetailsViewController.swift */,
+				6D1475132279943D005C8173 /* QReaderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D1475012278B4B2005C8173 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				6D1475022278B4E7005C8173 /* MovieDetailsTableViewCell.swift */,
+				6D1475042278B746005C8173 /* PersistentService.swift */,
+				6D14750D2278BE6F005C8173 /* MovieCodeable.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		6D14750A2278BA6E005C8173 /* ApiLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6D14750B2278BA89005C8173 /* APILogic.swift */,
+			);
+			path = ApiLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +204,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1474ED2278B2EF005C8173 /* ViewController.swift in Sources */,
+				6D14750C2278BA89005C8173 /* APILogic.swift in Sources */,
+				6D14751822799FE6005C8173 /* QR+CoreDataProperties.swift in Sources */,
 				6D1474EB2278B2EF005C8173 /* AppDelegate.swift in Sources */,
+				6D147512227909EC005C8173 /* DetailsViewController.swift in Sources */,
+				6D1475052278B747005C8173 /* PersistentService.swift in Sources */,
+				6D14750E2278BE6F005C8173 /* MovieCodeable.swift in Sources */,
 				6D1474F32278B2EF005C8173 /* MovieListWithCoreData.xcdatamodeld in Sources */,
+				6D1475082278BA08005C8173 /* Movie+CoreDataClass.swift in Sources */,
+				6D1475092278BA08005C8173 /* Movie+CoreDataProperties.swift in Sources */,
+				6D1475142279943D005C8173 /* QReaderViewController.swift in Sources */,
+				6D14751722799FE6005C8173 /* QR+CoreDataClass.swift in Sources */,
+				6D1475102278FE09005C8173 /* SplashScreenViewController.swift in Sources */,
+				6D1475032278B4E7005C8173 /* MovieDetailsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
