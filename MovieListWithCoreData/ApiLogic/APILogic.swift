@@ -28,7 +28,7 @@ class APILogic {
         print(url)
         
         let fetchRequest : NSFetchRequest<Movie> = Movie.fetchRequest()
-        let sortByYear = NSSortDescriptor(key: "releaseYear", ascending: true)
+        let sortByYear = NSSortDescriptor(key: "releaseYear", ascending: false)
         fetchRequest.sortDescriptors = [sortByYear]
         
         do {
@@ -67,7 +67,7 @@ class APILogic {
                         
                     }
                    let arr = self.movies.sorted {
-                        $0.releaseYear < $1.releaseYear
+                        $0.releaseYear > $1.releaseYear
                     }
                     callback(arr,nil)
                 
