@@ -225,7 +225,17 @@
                     <view key="view" contentMode="scaleToFill" id="wZR-x3-paF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.4208291992" blue="0.39672218549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="8qk-rn-5ym">
+                                <rect key="frame" x="169" y="296" width="37" height="37"/>
+                                <color key="color" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8qk-rn-5ym" firstAttribute="centerX" secondItem="LEh-c4-8he" secondAttribute="centerX" id="Jel-ca-ree"/>
+                            <constraint firstItem="8qk-rn-5ym" firstAttribute="centerY" secondItem="LEh-c4-8he" secondAttribute="centerY" id="iK6-8k-CpF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LEh-c4-8he"/>
                     </view>
                     <connections>
